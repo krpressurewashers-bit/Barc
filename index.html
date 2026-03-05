@@ -3,200 +3,189 @@
 <head>
   <title>OrmanAdams Barcelona Adventure</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.5; margin: 20px; }
-    h1, h2, h3 { color: #2E8B57; }
-    nav a { margin-right: 15px; text-decoration: none; color: blue; }
-    hr { margin: 20px 0; }
-    img { margin: 10px 0; }
-    table { border-collapse: collapse; margin-top: 10px; }
-    table, th, td { border: 1px solid black; padding: 8px; }
-    ul { margin-top: 0; }
-    section { margin-bottom: 50px; }
+    /* GLOBAL STYLES */
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f4f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #2E8B57;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2E8B57;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #555;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2E8B57;
+      margin-top: 0;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      margin: 10px 0;
+      display: block;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2E8B57;
+      color: white;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2E8B57;
+      color: white;
+      margin-top: 50px;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Orman & Adams Barcelona Adventure Tours</h1>
+<header>
+  <h1>Orman & Adams Barcelona Adventure</h1>
+</header>
 
 <nav>
   <a href="#home">Home</a>
   <a href="#flight-hotel">Flight/Hotel</a>
   <a href="#budget">Budget</a>
-  <a href="#packing">Packing List</a>
+  <a href="#packing">Packing</a>
   <a href="#itinerary">Itinerary</a>
   <a href="#virtualtour">Virtual Tour</a>
 </nav>
 
-<hr>
-
-<!-- HOME PAGE -->
+<!-- HOME -->
 <section id="home">
-  <h2>Home</h2>
-  <p><b>Business Address:</b> 145 Travel Street, Barcelona, Spain</p>
-  <p><b>Phone:</b> +34 555 384 221</p>
-  <p><b>Email:</b> barcelonatours@email.com</p>
-  <p><b>Owners:</b> Kaeden Orman and Andrew Adams</p>
-
-  <h3>Welcome to Barcelona</h3>
-  <p>
-  Barcelona is one of the most exciting cities in Europe because it combines beautiful beaches, historic buildings, and amazing culture. 
-  Visitors can explore famous locations such as the Sagrada Familia, walk through Las Ramblas, and see the colorful art and architecture designed by Antoni Gaudí. 
-  The city is also known for its incredible food, soccer culture, and lively street markets that attract travelers from around the world. 
-  A trip to Barcelona offers unforgettable views, historic landmarks, and unique experiences that make it an amazing destination for travelers.
-  </p>
-
-  <h3>Images of Barcelona</h3>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Sagrada_Familia_01.jpg" width="300">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Barcelona_Beach.jpg" width="300">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Barcelona_La_Rambla.jpg" width="300">
-
-  <h3>Where is Barcelona?</h3>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Spain_location_map.svg" width="400">
-  <p>*Barcelona is located in northeastern Spain along the Mediterranean Sea.*</p>
-
-  <h3>Country Basics</h3>
-  <ul>
-    <li>Country: Spain</li>
-    <li>Currency: Euro (€)</li>
-    <li>Exchange Rate: 1 US Dollar ≈ 0.92 Euro</li>
-    <li>Official Language: Spanish and Catalan</li>
-    <li>Population of Barcelona: About 1.6 Million People</li>
-  </ul>
-
-  <h4>Popular Phrases</h4>
-  <ul>
-    <li>Hello – Hola</li>
-    <li>Goodbye – Adiós</li>
-    <li>Thank You – Gracias</li>
-    <li>Where is a restroom? – ¿Dónde está el baño?</li>
-  </ul>
+  <h2>Welcome to Barcelona</h2>
+  <p>Barcelona is a city of colorful architecture, delicious food, and lively streets. Explore Sagrada Familia, stroll along Las Ramblas, and relax at the beach. Discover the unique art of Antoni Gaudí and enjoy the vibrant culture of Catalonia.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Sagrada_Familia_01.jpg" alt="Sagrada Familia">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Barcelona_Beach.jpg" alt="Barcelona Beach">
 </section>
 
-<hr>
-
-<!-- FLIGHT/HOTEL PAGE -->
+<!-- FLIGHT/HOTEL -->
 <section id="flight-hotel">
-  <h2>Flight and Hotel Information</h2>
-
-  <h3>Flight Information</h3>
-  <p><b>Airline:</b> United Airlines</p>
-  <p><b>Flight Number:</b> UA 2623</p>
-  <p><b>Departure City:</b> Dallas/Fort Worth International Airport (DFW)</p>
-  <p><b>Departure Time:</b> 5:45 PM</p>
-  <p><b>Layover City:</b> Newark Liberty International Airport (EWR) – 2 hours</p>
-  <p><b>Second Flight:</b> UA 120 Newark (EWR) → Barcelona (BCN)</p>
-  <p><b>Arrival Time:</b> 9:55 AM</p>
-  <p><b>Total Flight Cost:</b> $980 per person</p>
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/United_Airlines_Boeing_787.jpg" width="400">
-
-  <h3>Airports</h3>
-  <p>Dallas/Fort Worth International Airport (DFW)</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/DFW_Airport.jpg" width="300">
-
-  <p>Newark Liberty International Airport (EWR)</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Newark_Airport.jpg" width="300">
-
-  <p>Barcelona–El Prat Airport (BCN)</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Barcelona_El_Prat_Airport.jpg" width="300">
-
-  <h3>Hotel Information</h3>
-  <p><b>Hotel Name:</b> Hotel El Palace Barcelona</p>
-  <p><b>Address:</b> Gran Via de les Corts Catalanes 668, Barcelona, Spain</p>
-  <p><b>Cost Per Night:</b> $420</p>
-  <p><b>Total Nights:</b> 4</p>
-  <p><b>Total Hotel Cost:</b> $1680</p>
-  <p><b>Hotel Website:</b> <a href="https://www.hotelpalacebarcelona.com">Hotel El Palace Barcelona Website</a></p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/El_Palace_Barcelona.jpg" width="400">
-  <p>Hotel El Palace Barcelona is a luxury hotel located in the center of the city. The hotel offers free WiFi, restaurants, a rooftop garden, and easy access to popular attractions like La Rambla and the Gothic Quarter.</p>
+  <h2>Flight & Hotel</h2>
+  <p><b>Flight:</b> United Airlines, DFW → BCN (layover EWR)</p>
+  <p><b>Hotel:</b> Hotel El Palace Barcelona, 4 nights</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/El_Palace_Barcelona.jpg" alt="Hotel El Palace">
 </section>
 
-<hr>
-
-<!-- BUDGET PAGE -->
+<!-- BUDGET -->
 <section id="budget">
-  <h2>Trip Budget</h2>
-
+  <h2>Budget</h2>
   <table>
     <tr><th>Item</th><th>Cost</th></tr>
     <tr><td>Flights (2 people)</td><td>$1960</td></tr>
-    <tr><td>Hotel (4 nights)</td><td>$1680</td></tr>
+    <tr><td>Hotel</td><td>$1680</td></tr>
     <tr><td>Food</td><td>$350</td></tr>
     <tr><td>Transportation</td><td>$150</td></tr>
     <tr><td>Attractions</td><td>$250</td></tr>
-    <tr><td><b>Total Cost</b></td><td><b>$4390</b></td></tr>
+    <tr><td><b>Total</b></td><td><b>$4390</b></td></tr>
   </table>
 </section>
 
-<hr>
-
-<!-- PACKING LIST PAGE -->
+<!-- PACKING LIST -->
 <section id="packing">
   <h2>Packing List</h2>
-
-  <h3>Clothing</h3>
   <ul>
-    <li>5 T-Shirts</li>
-    <li>2 Pairs of Shorts</li>
-    <li>1 Light Jacket</li>
-    <li>Underwear for 5 days</li>
-    <li>Socks</li>
-    <li>Comfortable Walking Shoes</li>
-    <li>Swimsuit for the beach</li>
-  </ul>
-
-  <h3>Travel Items</h3>
-  <ul>
-    <li>Passport</li>
-    <li>Phone Charger</li>
-    <li>Portable Charger</li>
-    <li>Wallet</li>
-    <li>Sunglasses</li>
-    <li>Backpack</li>
-  </ul>
-
-  <h3>Toiletries</h3>
-  <ul>
-    <li>Toothbrush</li>
-    <li>Toothpaste</li>
-    <li>Deodorant</li>
-    <li>Hairbrush</li>
+    <li>5 T-shirts, 2 Shorts, 1 Light Jacket</li>
+    <li>Passport, Phone & Charger, Wallet</li>
+    <li>Comfortable Walking Shoes, Swimsuit</li>
+    <li>Toiletries (Toothbrush, Toothpaste, Deodorant)</li>
   </ul>
 </section>
 
-<hr>
-
-<!-- ITINERARY PAGE -->
+<!-- ITINERARY -->
 <section id="itinerary">
-  <h2>Travel Itinerary</h2>
-
-  <h3>Day 1</h3>
-  <p>Flight from Dallas to Barcelona with layover in Newark and check into Hotel El Palace Barcelona.</p>
-
-  <h3>Day 2</h3>
-  <p>Visit the Sagrada Familia and explore Las Ramblas street market. Enjoy local tapas for lunch.</p>
-
-  <h3>Day 3</h3>
-  <p>Spend time at Barcelona Beach, visit Park Güell, and see Gaudí’s colorful mosaics.</p>
-
-  <h3>Day 4</h3>
-  <p>Tour the Gothic Quarter, visit the Picasso Museum, and shop at La Boqueria Market.</p>
-
-  <h3>Day 5</h3>
-  <p>Return flight from Barcelona back to Dallas via Newark.</p>
+  <h2>Itinerary</h2>
+  <ul>
+    <li>Day 1: Arrive Barcelona & check into Hotel El Palace</li>
+    <li>Day 2: Sagrada Familia & Las Ramblas</li>
+    <li>Day 3: Barcelona Beach & Park Güell</li>
+    <li>Day 4: Gothic Quarter & Picasso Museum</li>
+    <li>Day 5: Return Flight to Dallas</li>
+  </ul>
 </section>
 
-<hr>
-
-<!-- VIRTUAL TOUR PAGE -->
+<!-- VIRTUAL TOUR -->
 <section id="virtualtour">
   <h2>Virtual Tour</h2>
-
-  <h3>Sagrada Familia Tour</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/3MZ6zTzFJbM" title="Sagrada Familia Virtual Tour"></iframe>
-  <p>This video shows one of the most famous landmarks in Barcelona.</p>
+  <iframe src="https://www.youtube.com/embed/3MZ6zTzFJbM" title="Sagrada Familia Tour"></iframe>
 </section>
+
+<footer>
+  © 2026 Orman & Adams Barcelona Adventure Tours
+</footer>
 
 </body>
 </html>
