@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Barcelona Travel Project</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-color:#f0f0f0;
+margin:0;
+}
+
+header{
+background:#b22222;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:5px;
+}
+
+img{
+width:300px;
+margin:10px;
+}
+
+h2{
+color:#b22222;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Orman & Adams Travel Company</h1>
+<h3>Barcelona, Spain Adventure</h3>
+<p>Owners: Kaeden Orman & Andrew Adams</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#flight">Flight / Hotel</a>
+<a href="#packing">Packing List</a>
+<a href="#budget">Budget</a>
+<a href="#itinerary">Itinerary</a>
+<a href="#tour">Virtual Tour</a>
+</nav>
+
+<section id="home">
+
+<h2>Welcome to Barcelona</h2>
+
+<p>
+Barcelona, Spain is an exciting city full of culture, history, and beautiful scenery that travelers will never forget. Visitors can explore famous places such as La Sagrada Familia, Park Güell, and the lively streets of Las Ramblas while experiencing authentic Spanish culture. The city is also known for its amazing beaches, delicious food, and colorful architecture designed by Antoni Gaudí. Museums, historic buildings, and outdoor markets make Barcelona a perfect destination for travelers who want adventure and history. A trip to Barcelona offers unforgettable memories and experiences for every visitor.
+</p>
+
+<h3>Contact Information</h3>
+
+<p>
+Address: 124 Travel Street, Dallas TX<br>
+Phone: (214) 555-3489<br>
+Email: ormanadamstravel@email.com
+</p>
+
+<h3>Country Basics</h3>
+
+<ul>
+<li>Country: Spain</li>
+<li>Currency: Euro (€)</li>
+<li>Exchange Rate: 1 USD ≈ 0.92 Euro</li>
+<li>Language: Spanish</li>
+<li>Population of Barcelona: About 1.6 million</li>
+<li>Hello: Hola</li>
+<li>Goodbye: Adiós</li>
+<li>Thank You: Gracias</li>
+<li>Where is the restroom?: ¿Dónde está el baño?</li>
+</ul>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Barcelona_skyline.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Sagrada_Familia_01.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Park_Guell_Barcelona.jpg">
+
+</section>
+
+<section id="flight">
+
+<h2>Flight Information</h2>
+
+<p>
+Airline: American Airlines<br>
+Flight Number: AA878<br>
+Departure Airport: DFW – Dallas/Fort Worth<br>
+Layover: JFK – New York<br>
+Arrival Airport: BCN – Barcelona El Prat<br>
+Departure Time: 3:10 PM<br>
+Arrival Time: 9:20 AM<br>
+Price: $820 per person
+</p>
+
+<h3>Hotel Information</h3>
+
+<p>
+Hotel Barcelona Center<br>
+Address: Carrer de Balmes 103, Barcelona, Spain<br>
+Cost Per Night: $165<br>
+Total Stay: 4 Nights ($660)
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Barcelona_airport.jpg">
+
+</section>
+
+<section id="packing">
+
+<h2>Packing List</h2>
+
+<ul>
+<li>4 T-shirts each</li>
+<li>2 pairs of shorts each</li>
+<li>1 pair of jeans each</li>
+<li>1 light jacket each</li>
+<li>Walking shoes</li>
+<li>Sandals</li>
+<li>Socks and underwear</li>
+<li>Passport</li>
+<li>Phone and charger</li>
+<li>Sunglasses</li>
+<li>Toothbrush and toothpaste</li>
+<li>Deodorant</li>
+<li>Sunscreen</li>
+<li>Swimsuit</li>
+</ul>
+
+</section>
+
+<section id="budget">
+
+<h2>Trip Budget</h2>
+
+<ul>
+<li>Flights: $1640</li>
+<li>Hotel: $660</li>
+<li>Food Estimate: $500</li>
+<li>Activities: $120</li>
+<li>Transportation: $80</li>
+</ul>
+
+<h3>Total Estimated Cost: $3000</h3>
+
+</section>
+
+<section id="itinerary">
+
+<h2>Trip Itinerary</h2>
+
+<h3>Day 1</h3>
+<p>Flight from Dallas to Barcelona and check into hotel.</p>
+
+<h3>Day 2</h3>
+<p>Visit La Sagrada Familia and explore Las Ramblas.</p>
+
+<h3>Day 3</h3>
+<p>Visit Park Güell and relax at Barceloneta Beach.</p>
+
+<h3>Day 4</h3>
+<p>Explore the Gothic Quarter and visit the Picasso Museum.</p>
+
+<h3>Day 5</h3>
+<p>Return flight from Barcelona to Dallas.</p>
+
+</section>
+
+<section id="tour">
+
+<h2>Virtual Tour</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/sZK3q0s2v7U">
+</iframe>
+
+</section>
+
+</body>
+</html>
